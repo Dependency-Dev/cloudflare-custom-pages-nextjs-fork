@@ -46,20 +46,20 @@ export const challengePageTranslations: Record<
   ChallengePageTranslation
 > = {
   interactive: {
-    title: "Interactive Challenge",
+    title: "Verification",
     message: "Please complete this CAPTCHA to access the site.",
   },
   managed: {
-    title: "I'm Under Attack Mode™",
+    title: "Under Attack",
     message: "Complete CAPTCHA to proceed. This is a general security check.",
   },
   country: {
-    title: "Country Challenge",
+    title: "Challenge",
     message:
       "Additional verification is required for visitors from your Country/Region.",
   },
   javascript: {
-    title: "JavaScript Challenge",
+    title: "Checking....",
     message:
       "Please wait a moment while our security system verifies your request.",
   },
