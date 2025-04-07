@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", "Inter Fallback", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Fira Mono", "SFMono-Regular",
+    "Consolas", "Liberation Mono", ui-monospace, monospace;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+code,
+pre {
+  font-family: var(--font-mono);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+@keyframes flow {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes network-loading {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
