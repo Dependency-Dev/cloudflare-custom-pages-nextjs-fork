@@ -76,7 +76,7 @@ export const interfaceTranslations: Record<string, InterfaceTranslations> = {
     message: "You",
   },
   "network-status-cdn": {
-    message: "CDN",
+    message: "Panel",
   },
   "network-status-origin": {
     message: "Origin",
